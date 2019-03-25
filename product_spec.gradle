@@ -1,0 +1,47 @@
+ext.spec = [
+        'fasterxml' : [
+                'jackson' : [
+                        'core' : [
+                                'jackson-annotations' : 'com.fasterxml.jackson.core.jackson-annotations:' + jacksonVersion,
+                                'jackson-core' : 'com.fasterxml.jackson.core.jackson-core:' + jacksonVersion,
+                                'jackson-databind' : 'com.fasterxml.jackson.core.jackson-dababind:' + jacksonVersion
+                        ]
+                ]
+        ],
+        'linkedin' : [
+                'pegasus' : [
+                        'data' : 'com.linkedin.pegasus:data:' + pegasusVersion,
+                        'restliServer' : 'com.linkedin.pegasus:restli-server:' + pegasusVersion,
+                        'r2core' : 'com.linkedin.pegasus:r2:' + pegasusVersion,
+                        'restliClient' : 'com.linkedin.pegasus:restli-client:' + pegasusVersion
+                ]
+        ],
+        'newsoftvalley' : [
+                'myserver' : [
+                        'dataTemplate' : 'com.newsoftvalley.myserver:myserver-data-template:0.0.1',
+                        'restClient' : 'com.newsoftvalley.myserver:myserver-rest-client:0.0.1'
+                ]
+        ]
+        ,
+        'eclipse' : [
+                'jetty' : [
+                        'jettyServer' : 'org.eclipse.jetty:jetty-server:' + jettyVersion,
+                        'jettyWebapp' : 'org.eclipse.jetty:jetty-webapp:' + jettyVersion
+                ]
+        ],
+        'javax' : [
+                'servlet' : [
+                        'servletApi' : 'javax.servlet:javax.servlet-api:' + servletVersion
+                ]
+        ],
+        'apache' : [
+                'httpcomponents' : [
+                        'httpcore' : 'org.apache.httpcomponents:httpcore:' + httpVersion
+                ]
+        ],
+        'apache' : [
+                'httpcomponents' : [
+                        'httpclient' : 'org.apache.httpcomponents:httpclient:' + httpClientVersion
+                ]
+        ]
+]
